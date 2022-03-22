@@ -1,5 +1,5 @@
 # Professional Portfolio
-![WorkDaypic](https://user-images.githubusercontent.com/93059565/159521737-85540665-ce38-4b04-9ed9-1f71579d88eb.png)
+![Porfolio](https://user-images.githubusercontent.com/93059565/159526501-f4254606-c7fa-4b13-8934-60e95ea99ee2.png)
 
 ## Table of Contents
 
@@ -13,9 +13,9 @@
 
 ## Description
 
-A portfolio of work that showcase your skills and talents to employers looking to fill a part-time or full-time position.
+A portfolio of work that showcase my skills and talents to employers looking to fill a part-time or full-time position.
 
-https://izorizzy.github.io/week-5-hw/
+https://izorizzy.github.io/week-two-hw/
 
 ## Usage
 
