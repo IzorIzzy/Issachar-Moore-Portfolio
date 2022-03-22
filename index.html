@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <title>My Page!</title>
 </head>
 
 <body>
     <header>
-        <h1>Issachar Webpage!</h1>
+        <h1>Issachar Moore</h1>
         <nav>
             <ul>
                 <li>
@@ -23,6 +25,9 @@
                 <li>
                     <a href="#filler">Contact</a>
                 </li>
+                <li>
+                    <a href="#filler">Projects</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -31,10 +36,10 @@
         <h1>
             About Me
         </h1>
-        <img class="hero" src="./businessPic.png" alt="Picture of me in my suit">
+        <img class="hero" src="./Assets/businessPic.png" alt="Picture of me in my suit">
         <p>
             My name is Issachar Moore and I am an aspiring website developer.
-            My skillsets include coding languages <strong>(HTML, CSS, JAVA)</strong> , user interface, user experience,
+            My skillsets include coding languages <strong>(HTML, CSS, Javascript)</strong> , user interface, user experience,
             frontend and backend web programming languages.
             I aspire to work for a company focused on optimizing and improving web functionalities, with opportunities
             to continue to evolve in the web development space.
@@ -45,23 +50,69 @@
         <h1>
             Experience
         </h1>
-        <nav>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVA</li>
-                <li>Run Buddy</li>
-            </ul>
-        </nav>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>NodeJS</li>
+        </ul>
     </section>
 
-    <footer>
+    <section id="filler">
+        <h1>
+            Projects
+        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="card-deck col-lg-12">
+                    <div class="card col-lg-4 text-center">
+                        <img class="card-img-top" style="width: 200px;"
+                            src="https://user-images.githubusercontent.com/93059565/147293033-5726fcb8-d4d1-4de5-9c25-135c795e4d76.png"
+                            alt="User Interface of Pokeman app">
+                        <div class="card-body">
+                            <h5 class="card-title">PokeValue</h5>
+                            <p class="card-text">A UI that allows you to search for any Pokemon and retrieve it's
+                                statistics and abilities along with the price value of the card.</p>
+                            <a href="https://github.com/IzorIzzy/Project-One"><button>Github Repo</button></a>
+                            <a href="https://clairedelargy.github.io/Project-One/" ><button>Deployed App</button></a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4 text-center">
+                        <img class="card-img-top" style="width: 200px;"
+                        src="https://user-images.githubusercontent.com/93059565/155924841-23f168bc-1c33-488a-9d49-47da17120f1f.png" 
+                        alt="User Interface for finding friends">
+                        <div class="card-body">
+                            <h5 class="card-title">All Tied App</h5>
+                            <p class="card-text">A UI that allows you to search locally for potential friends with similar attributes and schedule. 
+                            </p>
+                            <a href="https://github.com/IzorIzzy/datingapp"><button>Github Repo</button></a>
+                            <a href="https://immense-caverns-04136.herokuapp.com/" ><button>Deployed App</button></a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4 text-center">
+                        <img class="card-img-top" style="width: 200px;"
+                        src="https://user-images.githubusercontent.com/93059565/159521737-85540665-ce38-4b04-9ed9-1f71579d88eb.png"
+                        alt="User Interface for Scheduling">
+                        <div class="card-body">
+                            <h5 class="card-title">Work Day Scheduler</h5>
+                            <p class="card-text"> A UI that allows users to save events for each hour of the day.
+                            </p>
+                            <a href="https://github.com/IzorIzzy/week-5-hw"><button>Github Repo</button></a>
+                            <a href="https://izorizzy.github.io/week-5-hw/" ><button>Deployed App</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="filler">
         <h1>Contact</h1>
         <nav>
             <ul>
                 <li>314-562-8311</li>
                 <li>issacharmoore@yahoo.com</li>
-                <li>IzorIzzy</li>
+                <a href="https://github.com/IzorIzzy"><button>Github</button></a>
             </ul>
         </nav>
     </footer>
